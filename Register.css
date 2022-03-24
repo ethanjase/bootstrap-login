@@ -1,0 +1,68 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: gray;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #A8A8A8, #B1B1B1, #B9B9B9, #C2C2C2);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #A8A8A8, #B1B1B1, #B9B9B9, #C2C2C2);
+  }
+  
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  @media (max-width: 450px) {
+    .h-custom {
+      height: 100%;
+    }
+  }
+
+#previous-acct {
+    margin-top: 5px;
+}
+
+#footer-info {
+    text-align: center;
+    font-size: small;
+    padding-top: 175px;
+    padding-left: 25px;
+}
+
+#rightmost-content {
+  padding-top: 125px;
+}
+
+#account {
+  color: white;
+}
+
+#register-btn {
+  border: 1px solid black;
+}
+
+.btn.btn-primary {
+  background-color: black;
+}
+.btn.btn-primary.btn-block {
+  background-color: transparent !important;
+  color: black !important;
+}
