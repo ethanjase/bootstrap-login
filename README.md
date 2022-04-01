@@ -1,2 +1,2 @@
 # bootstrap-login-register
-Mock login & register page using bootstrap / html / css
+Login & register page using bootstrap / html / css for non-profit organization
